@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: auth-source
+
+server:
+  port: 7000
+
+  
+     
+eureka:
+  instance:
+    hostname: localhost 
+    instance-id: ${spring.application.name}.{random.uuid} 
+  client:
+       register-with-eureka: true
+       fetch-registry: true
