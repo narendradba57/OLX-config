@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/olxadvertisedb
+    username: root
+    password: welcome
+  jpa:
+    hibernate.ddl-auto: update  
+    properties:
+       hibernate:
+          dialect:org.hibernate.dialect.MYSQL8Dialect
+server:
+  port: 8000

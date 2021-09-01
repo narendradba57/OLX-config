@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/olxmasterdb
+    username: root
+    password: welcome
+  jpa:
+    hibernate.ddl-auto: update  
+    properties:
+       hibernate:
+          dialect:org.hibernate.dialect.MYSQL8Dialect
+  application:
+    name: adv-source
+server:
+  port: 9000
+ 
