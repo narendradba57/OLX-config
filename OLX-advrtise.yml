@@ -9,8 +9,4 @@ spring:
     properties:
        hibernate:
           dialect:org.hibernate.dialect.MYSQL8Dialect
-  application:
-    name: adv-source
-server:
-  port: 9000
  
